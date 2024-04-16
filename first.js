@@ -16,6 +16,8 @@ console.log(Name);
 console.log(age);
 console.log(pi);
 
+// ----------------------------------------
+
 let b;
 console.log(b);
 console.log(typeof age);
