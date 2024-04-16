@@ -25,6 +25,8 @@ console.log(typeof age);
 let x = BigInt("123");
 console.log(x);
 
+// ----------------------------------------
+
 const student = {
     fullName: "Rahul",
     age: 20,
