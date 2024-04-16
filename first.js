@@ -139,6 +139,8 @@ do {
     console.log(k);
 } while (k <= 10);
 
+// ----------------------------------------
+
 let str = "Tony Stark"; // FOR OF LOOP to print string and i is iterator
 let size = 0;
 for (let i of str) {
