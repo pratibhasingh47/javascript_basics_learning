@@ -95,7 +95,7 @@ let shradha = new Eng();
 
 
 
-/*let data = "secret information";
+let data = "secret information";
 class User{
     constructor(name,email){
         this.name = name;
@@ -118,4 +118,4 @@ class Admin extends User{
 let st1 = new User("Pratibha","abc@gmail.com");
 let st2 = new User("shradha","abc@gmail.com");
 
-let admin1 = new Admin("admin","adbhf@gmail.com");*/
+let admin1 = new Admin("admin","adbhf@gmail.com");
