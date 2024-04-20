@@ -30,7 +30,7 @@ e1.__proto__ = emp;
 // ------------------------------------------
 
 
-/*class car{
+class car{
     constructor(){
         console.log("Constructor is created");
     }
@@ -49,7 +49,10 @@ let car1 = new car();
 car1.setBrand("fortuner");
 
 let car2 = new car();
-car2.setBrand("lexus");*/
+car2.setBrand("lexus");
+
+
+// ------------------------------------------
 
 
 /*class Parent{
