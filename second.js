@@ -55,7 +55,7 @@ car2.setBrand("lexus");
 // ------------------------------------------
 
 
-/*class Parent{
+class Parent{
     hello(){
         console.log("Hello");
     }
@@ -87,7 +87,13 @@ class Eng extends Person {
         console.log("Solve problems");
     }
 }
-let shradha = new Eng();*/
+let shradha = new Eng();
+
+
+// ------------------------------------------
+
+
+
 
 /*let data = "secret information";
 class User{
