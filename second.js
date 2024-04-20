@@ -1,46 +1,42 @@
-const student ={
-    fullName : "Pratibha Singh",
-    marks : 97,
-    printMarks : function (){
+const student = {
+    fullName: "Pratibha Singh",
+    marks: 97,
+    printMarks: function () {
         console.log(this.marks);
     },
 };
 console.log(student.printMarks());
 
-
 // ------------------------------------------
 
-
-const emp ={
-    cacTax(){
+const emp = {
+    cacTax() {
         console.log("tax is 10%");
     },
 };
 
-const e1={
-    salary :50000,
-    cacTax(){
+const e1 = {
+    salary: 50000,
+    cacTax() {
         console.log("tax is 20%");
     },
 };
 
 e1.__proto__ = emp;
 
-
 // ------------------------------------------
 
-
-class car{
-    constructor(){
+class car {
+    constructor() {
         console.log("Constructor is created");
     }
-    start(){
+    start() {
         console.log("start");
     }
-    stop(){
+    stop() {
         console.log("stop");
     }
-    setBrand(brand){
+    setBrand(brand) {
         this.brandName = brand;
     }
 }
@@ -51,71 +47,65 @@ car1.setBrand("fortuner");
 let car2 = new car();
 car2.setBrand("lexus");
 
-
 // ------------------------------------------
 
-
-class Parent{
-    hello(){
+class Parent {
+    hello() {
         console.log("Hello");
     }
 }
 
-class Child extends Parent{}
+class Child extends Parent {}
 
 let obj = new Child();
 
-class Person{
-    constructor(){
-        this.species="Hono-Saphiens";
+class Person {
+    constructor() {
+        this.species = "Hono-Saphiens";
     }
-    eat(){
+    eat() {
         console.log("Eat");
     }
-    sleep(){
+    sleep() {
         console.log("Sleep");
     }
 }
 
 class Eng extends Person {
-    constructor(branch){
+    constructor(branch) {
         super();
         this.branch = branch;
     }
-    work(){
+    work() {
         super.eat();
         console.log("Solve problems");
     }
 }
 let shradha = new Eng();
 
-
 // ------------------------------------------
 
-
-
-
 let data = "secret information";
-class User{
-    constructor(name,email){
+class User {
+    constructor(name, email) {
         this.name = name;
         this.email = email;
     }
-    viewdata(){
-        console.log("Data = ",data)
+    viewdata() {
+        console.log("Data = ", data);
     }
 }
 
-class Admin extends User{
-    constructor(name,email){
-        super(name,email);
+class Admin extends User {
+    constructor(name, email) {
+        super(name, email);
     }
-    editData(){
+    editData() {
         data = "some new value";
     }
 }
 
-let st1 = new User("Pratibha","abc@gmail.com");
-let st2 = new User("shradha","abc@gmail.com");
+let st1 = new User("Pratibha", "abc@gmail.com");
+let st2 = new User("shradha", "abc@gmail.com");
 
-let admin1 = new Admin("admin","adbhf@gmail.com");
+let admin1 = new Admin("admin", "adbhf@gmail.com");
