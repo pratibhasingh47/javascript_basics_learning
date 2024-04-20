@@ -1,11 +1,14 @@
-/*const student ={
+const student ={
     fullName : "Pratibha Singh",
     marks : 97,
     printMarks : function (){
         console.log(this.marks);
     },
 };
-console.log(student.printMarks());*/
+console.log(student.printMarks());
+
+
+// ------------------------------------------
 
 
 /*const emp ={
