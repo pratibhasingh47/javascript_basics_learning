@@ -11,7 +11,7 @@ console.log(student.printMarks());
 // ------------------------------------------
 
 
-/*const emp ={
+const emp ={
     cacTax(){
         console.log("tax is 10%");
     },
@@ -24,7 +24,10 @@ const e1={
     },
 };
 
-e1.__proto__ = emp;*/
+e1.__proto__ = emp;
+
+
+// ------------------------------------------
 
 
 /*class car{
