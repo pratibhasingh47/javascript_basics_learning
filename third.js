@@ -22,9 +22,9 @@ console.log(div.innerHTML);
 
 // ------------------------------------------
 
-/*let h1 = document.querySelector("h1");
+let h1 = document.querySelector("h1");
 console.dir(h1.innerText);
-h1.innerText = h1.innerText + "from Pratibha Singh";*/
+h1.innerText = h1.innerText + "from Pratibha Singh";
 
 // ------------------------------------------
 
@@ -37,6 +37,8 @@ console.log(d);
 let para = document.querySelector("p");
 console.log(para.getAttribute("class" , "Newclass"));
 console.log(para.setAttribute("class" , "Newclass"));*/
+
+// ------------------------------------------
 
 /*let div = document.querySelector("div");
 console.log(div);
@@ -58,6 +60,8 @@ document.querySelector("body").prepend(newh);
 let para = document.querySelector("p");
 para.remove();*/
 
+// ------------------------------------------
+
 
 /*let btn1 = document.querySelector("#btn1");
 /*btn1.onclick = ()=>{
@@ -74,6 +78,8 @@ btn1.addEventListener("dblclick",(e)=>{
     console.log(e);
     console.log(e.type);
 })*/
+
+// ------------------------------------------
 
 
 /*let modebtn = document.querySelector("#mode");
