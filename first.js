@@ -311,7 +311,7 @@ function strc(msg) {
             msg[i] == "i" ||
             msg[i] == "o" ||
             msg[i] == "u"
-        ) {
+        ){
             sum++;
         }
     }
