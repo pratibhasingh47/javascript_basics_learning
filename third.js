@@ -63,13 +63,13 @@ parag.remove();
 // ------------------------------------------
 
 
-/*let btn1 = document.querySelector("#btn1");
-/*btn1.onclick = ()=>{
+let btn1 = document.querySelector("#btn1");
+btn1.onclick = ()=>{
     console.log("Btn1 was clicked");
 }
 
-let div = document.querySelector("div");
-div.onmouseover = ()=>{
+let diversion = document.querySelector("div");
+diversion.onmouseover = ()=>{
     console.log("You are inside div");
 }
 
@@ -77,12 +77,12 @@ btn1.addEventListener("dblclick",(e)=>{
     console.log("button 1 was clicked");
     console.log(e);
     console.log(e.type);
-})*/
+})
 
 // ------------------------------------------
 
 
-/*let modebtn = document.querySelector("#mode");
+let modebtn = document.querySelector("#mode");
 let body = document.querySelector("body");
 let cmode = "light";
 
@@ -98,4 +98,4 @@ modebtn.addEventListener("click",() =>{
         body.classList.remove("dark");
     }
     console.log(cmode);
-})*/
+})
