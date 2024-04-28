@@ -40,25 +40,25 @@ console.log(para.setAttribute("class" , "Newclass"));
 
 // ------------------------------------------
 
-/*let div = document.querySelector("div");
-console.log(div);
-console.log(div.style);
-div.style.backgroundColor="pink";
-div.innerText="Hello";
+let dive = document.querySelector("div");
+console.log(dive);
+console.log(dive.style);
+dive.style.backgroundColor="pink";
+dive.innerText="Hello";
 
 let newb = document.createElement("button");
 newb.innerText="Click me";
 console.log(newb);
 
-let divv = document.querySelector("div");
-divv.before(newb);
+let divve = document.querySelector("div");
+divve.before(newb);
 
 let newh = document.createElement("h1");
 newh.innerHTML="<i>Hello Guys</i>";
 document.querySelector("body").prepend(newh);
 
-let para = document.querySelector("p");
-para.remove();*/
+let parag = document.querySelector("p");
+parag.remove();
 
 // ------------------------------------------
 
