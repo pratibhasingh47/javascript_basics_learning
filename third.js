@@ -1,4 +1,4 @@
-/*let heading = document.getElementById("heading");
+let heading = document.getElementById("heading");
 console.dir(heading);
 
 let helo = document.getElementsByClassName("hello");
@@ -18,7 +18,9 @@ console.log(a.innerText);
 
 let div = document.querySelector("div");
 console.log(div.innerText);
-console.log(div.innerHTML);*/
+console.log(div.innerHTML);
+
+// ------------------------------------------
 
 /*let h1 = document.querySelector("h1");
 console.dir(h1.innerText);
