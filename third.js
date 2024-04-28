@@ -28,15 +28,15 @@ h1.innerText = h1.innerText + "from Pratibha Singh";
 
 // ------------------------------------------
 
-/*let div = document.querySelector("div");
-console.log(div);
+let divv = document.querySelector("div");
+console.log(divv);
 
-let d = div.getAttribute("name");
+let d = divv.getAttribute("name");
 console.log(d);
 
 let para = document.querySelector("p");
 console.log(para.getAttribute("class" , "Newclass"));
-console.log(para.setAttribute("class" , "Newclass"));*/
+console.log(para.setAttribute("class" , "Newclass"));
 
 // ------------------------------------------
 
