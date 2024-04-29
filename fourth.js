@@ -57,7 +57,7 @@ promise.catch((err)=>{
     console.log("rejected",err)
 })
 
-/*function asyncF(){
+function asyncF(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             console.log("data");
@@ -91,7 +91,7 @@ console.log("Fetching Data...");
 asyncF().then((res)=>{
     console.log("Fetching data2...");
     asyncF2().then((res)=>{});
-});*/
+});
 
 /*console.log("Fetching Data...");
 let p2 = asyncF2();
