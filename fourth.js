@@ -37,13 +37,13 @@ getData(1,()=>{
 
 //CallBack - Nested callbacks stacked below one another forming pyramind structure
 
-/*let promise = new Promise((resolve,reject)=>{
+let promisee = new Promise((resolve,reject)=>{
     console.log("I am a promise");
     reject("error");
     resolve(123);
-});*/
+});
 
-/*const getPromise = ()=>{
+const getPromise = ()=>{
     return new Promise((resolve,reject)=>{
         console.log("i am promise");
         resolve("Success");
@@ -55,7 +55,7 @@ promise.then((res)=>{
 });
 promise.catch((err)=>{
     console.log("rejected",err)
-})*/
+})
 
 /*function asyncF(){
     return new Promise((resolve,reject)=>{
