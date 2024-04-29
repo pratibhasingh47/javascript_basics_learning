@@ -1,4 +1,4 @@
-/*console.log("one");
+console.log("one");
 console.log("two");
 
 setTimeout(()=>{
@@ -16,9 +16,9 @@ function cal(a,b ,sumcallback){
     sumcallback(a,b);
 };
 
-cal(1,2,sum);*/
+cal(1,2,sum);
 
-/*function getData(dataId,getNextData){
+function getData(dataId,getNextData){
     setTimeout(()=>{
         console.log(dataId);
         if(getNextData){
@@ -31,7 +31,10 @@ getData(1,()=>{
     getData(2,()=>{
         getData(3);
     });
-});*/
+});
+
+
+
 //CallBack - Nested callbacks stacked below one another forming pyramind structure
 
 /*let promise = new Promise((resolve,reject)=>{
