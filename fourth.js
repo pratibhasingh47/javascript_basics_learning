@@ -132,7 +132,7 @@ getData(1)//promise chaining
             });
 
 
-/*async function hello() {
+async function hello() {
     console.log("hello");
 }
 
@@ -148,12 +148,12 @@ function api() {
 async function getWD(){
     await api();
     await api();
-}*/
+}
 
 
-/*async function getdata(){
+async function getdata(){
     await getData(1);
     await getData(2);
     await getData(3);
     await getData(4);
-}*/
+}
