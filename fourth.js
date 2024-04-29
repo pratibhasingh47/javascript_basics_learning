@@ -109,12 +109,16 @@ function getData(dataId){
 });
 }
 
-/*getData(1).then((res)=>{
+getData(1).then((res)=>{
     console.log(res);
     getData(2).then(()=>{
         console.log(res);
     })
 });
+
+
+
+
 
 getData(1)//promise chaining
     .then((res)=>{
@@ -125,7 +129,8 @@ getData(1)//promise chaining
         })
             .then((res)=>{
             console.log(res);
-            });*/
+            });
+
 
 /*async function hello() {
     console.log("hello");
