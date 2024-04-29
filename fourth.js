@@ -93,13 +93,13 @@ asyncF().then((res)=>{
     asyncF2().then((res)=>{});
 });
 
-/*console.log("Fetching Data...");
+console.log("Fetching Data...");
 let p2 = asyncF2();
 p2.then((res)=>{
     console.log(res);
-});*/
+});
 
-/*function getData(dataId){
+function getData(dataId){
     return new Promise((resolve,reject)=>{
     setTimeout(()=>{
         console.log("data",dataId);
@@ -107,7 +107,7 @@ p2.then((res)=>{
     },4000); 
     console.log(dataId);
 });
-}*/
+}
 
 /*getData(1).then((res)=>{
     console.log(res);
